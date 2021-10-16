@@ -50,26 +50,26 @@
     <section>
         <h2>Opinión:</h2>
         <form>
-            <p><label>Nombre: <input type="text"></label></p>
-            <p><label>Email: <input type="email"></label></p>
-            <p><label>Telephone: <input type="tel"></label></p>
+            <p><label for="nombre">Nombre: <input type="text" id="nombre"></label></p>
+            <p><label for="email">Email: <input type="email" id="email"></label></p>
+            <p><label for="phone">Telephone: <input type="tel" id="phone"></label></p>
             <fieldset>
                 <legend>Valoración aportaciones de Rasmus a la informática</legend>
-                <p><label> <input type="radio" name=opinion> Mediocres</label></p>
-                <p><label> <input type="radio" name=opinion> Buenas</label></p>
-                <p><label> <input type="radio" name=opinion> Imprescindibles</label></p>
+                <p><label for="mediocres"> <input type="radio" id="mediocres"> Mediocres</label></p>
+                <p><label for="buenas"> <input type="radio" id="buenas"> Buenas</label></p>
+                <p><label for="imprescindibles"> <input type="radio" id="imprescindibles"> Imprescindibles</label></p>
             </fieldset>
             <fieldset>
                 <legend>¿Dónde preferirías trabajar?</legend>
-                <p><label><input type="checkbox"> Yahoo! </label></p>
-                <p><label><input type="checkbox"> WePay </label></p>
-                <p><label><input type="checkbox"> Etsy </label></p>
-                <p><label><input type="checkbox"> Consultor de startups </label></p>
+                <p><label for="yahoo"><input type="checkbox" id="yahoo"> Yahoo! </label></p>
+                <p><label for="wepay"><input type="checkbox" id="wepay"> WePay </label></p>
+                <p><label for="etsy"><input type="checkbox" id="etsy"> Etsy </label></p>
+                <p><label for="consultor"><input type="checkbox" id="consultor"> Consultor de startups </label></p>
             </fieldset>
             <fieldset>
                 <p><label>Opinión: <textarea></textarea></label></p>
             </fieldset>
-            <p><button>Enviar</button></p>
+            <input type="submit" value="Enviar">
         </form>
     </section>
 
