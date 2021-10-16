@@ -1,12 +1,12 @@
 body {
     font: 400 15px Tahoma, sans-serif; /*Familia sans-serif*/
     line-height: 1.8;
-    color: #818181;
+    color: #252525;
     background-color: #fff;
 }
 /*especificidad=1*/
 h1 {
-    background-color:#FFD700; 
+    background-color:#ff5e00; 
     color: #fff;
     text-transform: uppercase;
     padding: 100px 25px;
@@ -16,7 +16,7 @@ h1 {
 
 /*especificidad=1*/
 h2{
-    background-color: #DAA520;
+    background-color: #ff5e00;
     color:#fff;
     text-transform: capitalize;
     padding: 25px 25px;
@@ -36,7 +36,7 @@ p{
 ul{
     border-left: 5px solid tan;
     background-color: #f2f2f2;
-    color: #818181;
+    color: #252525;
     list-style-type: none;
     padding: 10px 20px;
     margin-top: 50px;
@@ -71,7 +71,7 @@ td{
 /*especificidad=12*/
 tr:nth-child(even) {
     background-color:#f2f2f2;
-    color: #818181;
+    color: #252525;
 }
 
 /* unvisited link */
@@ -111,11 +111,13 @@ span{
     cursor: pointer;
 }
 
+/*especificidad=1*/
 img{
     width: 10cm;
     height: 7cm;
 }
 
+/*especificidad=1*/
 video{
     width: 10cm;
     height: 7cm;
