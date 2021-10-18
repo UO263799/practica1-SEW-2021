@@ -113,6 +113,11 @@ span{
     cursor: pointer;
 }
 
+nav{
+    color: white;
+    background-color: black;
+}
+
 /*especificidad=1*/
 img{
     width: 10cm;
