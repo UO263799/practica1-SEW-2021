@@ -113,6 +113,7 @@ span{
     cursor: pointer;
 }
 
+/*especificidad=1*/
 nav{
     color: white;
     background-color: black;
