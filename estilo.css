@@ -68,8 +68,10 @@ td{
     vertical-align: center;
     padding:15px;
 }
-/*especificidad=12*/
-tr:nth-child(even) {
+
+
+/*especificidad=1*/
+tr{
     background-color:#f2f2f2;
     color: #252525;
 }
